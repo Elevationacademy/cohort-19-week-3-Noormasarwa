@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+
+
+#chat{
+height: 100vh;
+display: grid;
+grid-template-areas: 
+"s m m m"
+"s m m m"
+"s m m m"
+"s m m m"
+"s m m m"
+"s m m m"
+"s m m m"
+"s m m m"
+"s m m m"
+"s m m m"
+"s m m m"
+"s m m m"
+"s f f f";
+}
+
+
+#friends{
+    grid-area: s;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-rows: 180px 180px 180px 180px 180px ;
+    align-items: center;
+}
+#chatbox{
+    grid-area: m;
+    background-color: rgb(241, 233, 233);
+    display: grid;
+    align-items: center;
+}
+
+#input{
+    grid-area: f;
+    background-color: rgb(131, 38, 123);
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+}
+#friends> p{
+    background-color: blue;
+}
+#friends> p{
+    background-color: blue;
+}
+#friends> h3 {
+    background-color: blue;
+}
+
+.right{
+    padding-left: 80%;
+
+}
